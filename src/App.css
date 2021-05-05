@@ -1,38 +1,48 @@
-.App {
+.pokemonGrid {
+  display:flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+
+
+.pokemonCard {
+  border-style: groove;
+  border-radius: 5%;
+  min-width: 18%;
+  max-width: 18%;
+  background-color:ivory;
   text-align: center;
+  /* display:flex;
+  flex-wrap: wrap; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainDiv {
+  background-color: aliceblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.titleDiv{
+  display:flex;
+  font-size: 120%;
+  justify-content: space-around;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.typeDiv {
+  max-width: 19%;
+}
+
+.weakDiv {
+  max-width: 19%;
+}
+
+.headerDiv {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    justify-content: space-around;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#search{
+  max-height:20px;
+  max-width: 120px;
 }
